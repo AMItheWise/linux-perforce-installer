@@ -3,11 +3,11 @@
 wget ftp://ftp.perforce.com/perforce/r17.2/bin.linux26x86_64/p4d
 chmod +x p4d
 sudo mv p4d /usr/local/bin
-sudo adduser perforce
-sudo mkdir /perforce_depot
-sudo chown perforce /perforce_depot
-sudo mkdir /var/log/perforce
-sudo chown perforce /var/log/perforce
+sudo adduser max_perforce
+sudo mkdir /max_perforce_depot
+sudo chown max_perforce /max_perforce_depot
+sudo mkdir /var/log/max_perforce
+sudo chown max_perforce /var/log/max_perforce
 sudo apt-get install daemon
 cd /etc/init.d
 wget https://raw.githubusercontent.com/MaxISoP/linux-perforce-installer/master/p4dservice
