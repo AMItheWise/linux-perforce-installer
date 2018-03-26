@@ -1,7 +1,7 @@
 #!/bin/sh
 
-export P4JOURNAL=/var/log/perforce/journal
-export P4LOG=/var/log/perforce/p4err
+export P4JOURNAL=/var/log/max_perforce/journal
+export P4LOG=/var/log/max_perforce/p4err
 export P4ROOT=/max_perforce_depot
 export P4PORT=1666
 
