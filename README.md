@@ -18,6 +18,8 @@ You will be asked to create a password and user details for a new unprivileged s
 
 Afterwards, the server will restart and you should then be able to connect to your Perforce server.
 
+If you are using Amazon Lightsail, with this script, add "Custom, TCP, 1666" in Networking tab of your VM instance. This will allow P4V to connect to your Perforce server, otherwise the connection will timeout.
+
 # Security
 
 The created server will have default Perforce installation settings. This means anyone who connects to your server can create a user account without authorization. After you create your first user, you should close this security hole by using the following `p4` command from your Perforce Client.
